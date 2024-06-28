@@ -17,7 +17,7 @@ List the technologies and frameworks/libraries used in your project.
 - Feature 1: signin and signup JWT Authentication secured
 - Feature 2: secure transaction
 - Feature 3: Easy UI 
-- ...
+- Feature 4: Search User Functionality  
 
 ## Installation
 
