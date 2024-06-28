@@ -28,7 +28,7 @@ export const SendMoney = () => {
     try {
       console.log("Initiating transfer with data:", requestData);
       const res = await axios.post(
-        "http://localhost:3000/api/v1/account/transfer",
+        "https://quick-pay-api.vercel.app/api/v1/account/transfer",
         requestData,
         {
           headers: {

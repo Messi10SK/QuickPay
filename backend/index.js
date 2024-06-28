@@ -9,7 +9,13 @@ const connectToDb = require("../backend/db.js")
 
 const app = express();
 app.use(express.json());
-app.use(cors());
+app.use(cors(
+    {
+        origin: ["https://quick-pay-front.vercel.app/"],
+        methods: ["GET","POST","PUT","DELETE"],
+        credentials: true,     
+    }
+));
 
 dotenv.config();
 

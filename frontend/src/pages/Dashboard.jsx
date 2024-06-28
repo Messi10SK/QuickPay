@@ -19,7 +19,7 @@ export  const Dashboard = () => {
     } else {
       // Fetch balance if token exists
       axios
-        .get( "http://localhost:3000/api/v1/account/balance",{
+        .get( "https://quick-pay-api.vercel.app/api/v1/account/balance",{
           headers: {
             Authorization: "Bearer " + userToken,
           },

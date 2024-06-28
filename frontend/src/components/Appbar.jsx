@@ -14,7 +14,7 @@ const userToken = localStorage.getItem("token")
 if(!userToken){
     navigate("/signin");
 }else{
-    axios.get("http://localhost:3000/api/v1/user/getUser",{
+    axios.get("https://quick-pay-api.vercel.app/api/v1/user/getUser",{
       headers:{
         Authorization: "Bearer " + userToken
       },
