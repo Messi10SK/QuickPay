@@ -31,10 +31,10 @@ const signOutHandler = () =>{
 }
     
   return (
-   <div className='shadow h-14 flex justify-between items-center md:px10'>
+   <div className='shadow h-14 flex justify-between  items-center md:px10'>
       <Link to={"dashboard"}>
       <div className='flex flex-col justify-center h-full ml-4 font-bold '>
-        PayTM App
+        QuickPay App
       </div>
       </Link>
       <div className="flex items-center justify-center gap-2">
