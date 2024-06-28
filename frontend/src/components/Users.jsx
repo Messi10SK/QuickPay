@@ -13,7 +13,7 @@ export default function Users() {
     const fetchData = async () => {
       try {
         const token = localStorage.getItem("token"); // Get the token from local storage
-        const response = await axios.get(`https://quick-pay-api.vercel.app/api/v1/user/bulk?filter=${filter}`, {
+        const response = await axios.get(`http://localhost:3000/api/v1/user/bulk?filter=${filter}`, {
           headers: {
             Authorization: `Bearer ${token}`, // Include the token in the request headers
           },

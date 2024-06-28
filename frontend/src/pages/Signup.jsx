@@ -63,7 +63,7 @@ export const Signup = () => {
             <Button
               onClick={async () => {
                 const response = await axios.post(
-                   "https://quick-pay-api.vercel.app/api/v1/user/signup",
+                   "http://localhost:3000/api/v1/user/signup",
                   {
                     username,
                     firstName,
